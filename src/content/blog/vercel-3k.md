@@ -15,5 +15,9 @@ category: development
 --- 
 
 Original post: https://twitter.com/shoeboxdnb/status/1643639119824801793
+Conclusion: Vercel CEO confirmed -> won't be charge.
 
 --- 
+
+tldr: Error in the code caused uncaught exception which caused subsequent requests to fail and retry, which caused a spike in bandwidth usage ($500 / hour).
+```
