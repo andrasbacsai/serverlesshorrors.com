@@ -3,6 +3,8 @@ title: $104,500.00
 description: So I received an email from Netlify last weekend saying that I have a $104,500.00 bill overdue...
 tags:
   - netlify
+  - bandwidth
+  - ddos
 author: Andras Bacsai
 authorTwitter: heyandras
 date: "2024-02-27T10:23:31.210Z"

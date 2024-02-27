@@ -2,7 +2,6 @@
 /* https://github.com/tailwindlabs/tailwindcss/discussions/2917 */
 @layer base {
 	html {
-		&.dark {
 			@apply text-white;
             header, footer {
                 @apply text-gray-400 border-gray-700;
@@ -10,7 +9,6 @@
 			strong {
 				@apply text-white
 			}
-		}
 	}
 }
 @tailwind components;
