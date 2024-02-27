@@ -4,8 +4,8 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "astro dev",
-    "build": "astro build",
+    "dev": "THEME_KEY=orangecity astro dev",
+    "build": "THEME_KEY=orangecity astro build",
     "check": "astro check",
     "postbuild": "node ./scripts/search/prepare-index.js",
     "preview": "astro preview",
