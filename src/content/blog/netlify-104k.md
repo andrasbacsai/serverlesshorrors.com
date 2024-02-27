@@ -19,6 +19,9 @@ Conclusion: Netlify CEO confirmed -> won't be charge.
 
 --- 
 
+tldr: DDOS attack caused a spike in bandwidth usage ($104,500 / 4 days).
+
+
 So I received an email from Netlify last weekend saying that I have a $104,500.00 bill overdue. At first I thought this is a joke or some scam email but after checking my dashboard it seems like I am truly owing them 104K dollars:
 
 That's 190TB bandwidth in 4 days
