@@ -1,0 +1,62 @@
+---
+import type { CollectionEntry } from 'astro:content'
+import { getMonthName } from '$/utils'
+
+interface Props {
+    post: CollectionEntry<'blog'>,
+    asCard?: boolean
+}
+
+const { post: { data: post, slug }, asCard = false } = Astro.props
+---
+<div class={`post-preview ${asCard && 'post-preview--card'}`}>
+    <div class="post-preview__date-box">
+        <div class="post-preview__date">
+            <span class="post-preview__date__day">{ new Date(post.date).getDate() }</span>
+            <span class="post-preview__date__month-n-year">{ `${getMonthName(post.date)} ${new Date(post.date).getFullYear()}` }</span>
+        </div>
+    </div>
+    <div class="flex-1">
+        <h4 class="post-preview__title dark:text-theme-dark-primary">
+            <a href={`/all/${slug}`} title={post.title}>{post.title}</a>
+        </h4>
+        <p class="post-preview__desc">
+            {post.description}
+        </p>
+    </div>
+</div>
+<style>
+    .post-preview {
+        @apply flex gap-6;
+    }
+    .post-preview--card {
+        @apply flex flex-col-reverse gap-4 sm:w-72 md:w-60 lg:w-64;
+    }
+    .post-preview__date-box {
+        @apply sm:w-20 md:w-32
+    }
+    .post-preview--card .post-preview__date-box {
+        @apply w-full
+    }
+    .post-preview__date {
+        @apply flex flex-col w-full text-center;
+    }
+    .post-preview--card .post-preview__date {
+        @apply text-left flex flex-row gap-1
+    }
+    .post-preview__date__day {
+        @apply text-6xl font-semibold text-gray-500 dark:text-gray-300;
+    }
+    .post-preview--card .post-preview__date__day {
+        @apply text-4xl
+    }
+    .post-preview__date__month-n-year {
+        @apply text-gray-400;
+    }
+    .post-preview__title {
+        @apply text-2xl font-semibold text-theme-primary dark:text-theme-dark-primary /* this doesn't works here */ hover:underline mb-2;
+    }
+    .post-preview__desc {
+        @apply text-lg leading-6 line-clamp-2 dark:text-white hyphens-auto;
+    }
+</style>

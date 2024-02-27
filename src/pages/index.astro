@@ -1,0 +1,56 @@
+---
+export const prerender = true
+
+import { getCollection, getEntryBySlug } from 'astro:content'
+import DefaultPageLayout from '$/layouts/default.astro'
+import PostPreviewList from '$/components/PostPreviewList.astro'
+import Prose from '$/components/Prose.astro'
+import { Content as AboutAstroInk } from './_astro-ink.md'
+
+
+const title = 'Home'
+const description = 'ServerlessHorrors'
+
+const posts = await getCollection('blog')
+---
+<DefaultPageLayout content={{ title, description }} showPageHeader={false}>
+    <div class="hero">
+        <div class="hero__face md:w-96">
+                <img src="https://i.pinimg.com/originals/90/eb/8e/90eb8e1dd918d52797bc1447e70045ce.jpg" title="Just an image" />
+        </div>
+        <div class="hero__says">
+            <!-- <Prose> -->
+                <AboutAstroInk/>
+            <!-- </Prose> -->
+        </div>
+    </div>
+    <hr/>
+    <PostPreviewList posts={posts.slice(0, 3)} heading="recent posts"/>
+    <div class="page__actions">
+        <a class="action__go-to-blog ink-h" href="/all" title="All Posts">All Posts &rarr;</a>
+    </div>
+</DefaultPageLayout>
+
+<style>
+    .hero {
+        @apply flex flex-col md:flex-row gap-8 w-full transition-all pb-4
+    }
+    .hero__face {
+        @apply flex md:flex-none justify-center
+    }
+    .hero__says {
+        @apply flex-1 text-center md:text-left
+    }
+    .author-card {
+        @apply  h-48 w-48 md:h-56 bg-theme-primary dark:bg-theme-dark-primary rounded-full md:rounded-md shadow-lg
+    }
+    .author-card img {
+        @apply rounded-full h-48 w-48 md:h-56
+    }
+    .page__actions {
+        @apply flex justify-center md:justify-end py-6
+    }
+    .action__go-to-blog {
+        @apply py-4 hover:underline
+    }
+</style>

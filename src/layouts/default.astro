@@ -1,0 +1,33 @@
+---
+import { SITE } from '$/config'
+import BaseHead from '$/components/BaseHead.astro';
+import MainLayout from '$/components/MainLayout.astro';
+
+const { content, showPageHeader = true } = Astro.props
+---
+<!doctype html>
+<html lang="en">
+    <head>
+        <BaseHead title={ content.title ? `${ SITE.title } | ${content.title}` : SITE.title } description={ content.description } image={SITE.image}/>
+    </head>
+    <MainLayout>
+        {showPageHeader &&
+            <div class="page__header">
+                <h1 class="page__title">{content.title}</h1>
+                <h5 class="page__desc">{content.description}</h5>
+            </div>
+        }
+        <slot />
+    </MainLayout>
+</html>
+<style>
+    .page__header {
+        @apply py-4 mb-1
+    }
+    .page__title {
+        @apply text-5xl font-extrabold text-theme-primary dark:text-theme-dark-primary
+    }
+    .page__desc {
+        @apply text-gray-400
+    }
+</style>
