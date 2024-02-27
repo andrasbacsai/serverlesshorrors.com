@@ -23,7 +23,7 @@ export const NAV_ITEMS: NavItems = {
 export const SITE = {
 	name: "ServerlessHorrors",
 	title: "ServerlessHorrors",
-	description: "Stories you never want to feel it on your own skin",
+	description: "Stories you never want to feel on your own skin",
 	url: "https://serverlesshorrors.com",
 	githubUrl: "https://github.com/andrasbacsai/serverlesshorrors",
 	listDrafts: false,
