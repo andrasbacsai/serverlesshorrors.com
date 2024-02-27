@@ -1,5 +1,5 @@
 ---
-title: $104,500.00
+title: $104,500.123
 description: So I received an email from Netlify last weekend saying that I have a $104,500.00 bill overdue...
 tags:
   - netlify
@@ -7,8 +7,8 @@ tags:
   - ddos
 author: Andras Bacsai
 authorTwitter: heyandras
-date: "2024-02-27T10:23:31.210Z"
-# image: /images/uploads/netlify-104k.png
+date: "2024-02-27T12:34:56.789Z"
+image: https://d3e0luujhwn38u.cloudfront.net/resized/bpWZOoDelLipC_FS9mD8jWkdzcNoAuzStEXgCRtQgMQ/s:1200/plain/s3://typefully-user-uploads/img/original/10070/bc660b5e-cc2c-474a-90e8-e1608d0fc4db.png__edited
 category: development
 ---
 

@@ -25,7 +25,7 @@ const posts = await getCollection('blog')
         </div>
     </div>
     <hr/>
-    <PostPreviewList posts={posts.slice(0, 3)} heading="recent posts"/>
+    <PostPreviewList posts={posts} heading="recent posts"/>
     <div class="page__actions">
         <a class="action__go-to-blog ink-h" href="/all" title="All Posts">All Posts &rarr;</a>
     </div>
