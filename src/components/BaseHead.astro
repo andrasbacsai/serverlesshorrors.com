@@ -1,6 +1,6 @@
 ---
 import "@fontsource/fira-sans";
-import { ViewTransitions } from 'astro:transitions';
+import { ViewTransitions } from "astro:transitions";
 import { SITE } from "$/config";
 import "../styles/global.css";
 
@@ -11,7 +11,12 @@ export type Props = {
   image: string;
 };
 
-const { title = SITE.title, description, permalink, image } = Astro.props;
+const {
+  title = SITE.title,
+  description,
+  permalink,
+  image,
+} = Astro.props;
 ---
 
 <!-- Use Google Fonts, if you don't wanna prefer a self-hosted version --><!-- <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -22,7 +27,7 @@ const { title = SITE.title, description, permalink, image } = Astro.props;
 
 <title>{title}</title>
 <meta name="title" content={title} />
-{description && <meta name="description" content={description} />}
+{SITE.description && <meta name="description" content={SITE.description} />}
 <ViewTransitions />
 
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
@@ -45,16 +50,19 @@ const { title = SITE.title, description, permalink, image } = Astro.props;
 <meta property="og:type" content="website" />
 <meta property="og:title" content={title} />
 {permalink && <meta property="og:url" content={permalink} />}
-{description && <meta property="og:description" content={description} />}
+{SITE.description && <meta property="og:description" content={SITE.description} />}
 {image && <meta property="og:image" content={image} />}
 
 <!-- Twitter -->
 <meta property="twitter:card" content="summary_large_image" />
 <meta property="twitter:title" content={title} />
 {permalink && <meta property="twitter:url" content={permalink} />}
-{description && <meta property="twitter:description" content={description} />}
+{SITE.description && <meta property="twitter:description" content={SITE.description} />}
 {image && <meta property="twitter:image" content={image} />}
-<script defer data-domain="serverlesshorrors.com" src="https://analytics.coollabs.io/js/script.js"></script>
+<script
+  defer
+  data-domain="serverlesshorrors.com"
+  src="https://analytics.coollabs.io/js/script.js"></script>
 
 <script is:inline>
   const theme = (() => {
@@ -71,6 +79,6 @@ const { title = SITE.title, description, permalink, image } = Astro.props;
   // if (theme === "light") {
   //   document.documentElement.classList.remove("dark");
   // } else {
-    document.documentElement.classList.add("dark");
+  document.documentElement.classList.add("dark");
   // }
 </script>
