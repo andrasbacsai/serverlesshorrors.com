@@ -27,6 +27,7 @@ export const SITE = {
 	url: "https://serverlesshorrors.com",
 	githubUrl: "https://github.com/andrasbacsai/serverlesshorrors",
 	listDrafts: false,
+	image: "https://i.pinimg.com/originals/90/eb/8e/90eb8e1dd918d52797bc1447e70045ce.jpg",
 	// image:
 	// 	"https://raw.githubusercontent.com/one-aalam/astro-ink/main/public/astro-banner.png",
 	// YT video channel Id (used in media.astro)

@@ -15,6 +15,7 @@ category: development
 --- 
 
 Original post: https://old.reddit.com/r/webdev/comments/1b14bty/netlify_just_sent_me_a_104k_bill_for_a_simple/
+
 Conclusion: Netlify CEO confirmed -> won't be charge.
 
 --- 
