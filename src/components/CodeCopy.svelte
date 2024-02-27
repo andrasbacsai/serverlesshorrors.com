@@ -37,7 +37,7 @@
 <button 
     bind:this={selfElm} 
     on:click={copy} 
-    class="absolute px-2 text-theme-primary dark:text-theme-dark-primary border-1 rounded-lg" 
+    class="absolute px-2 text-theme-dark-primary border-1 rounded-lg" 
     style="top: 6px; right: 8px;"
     style:display={isCodeBlock ? 'inline-block' : 'none'}
     disabled={copied}

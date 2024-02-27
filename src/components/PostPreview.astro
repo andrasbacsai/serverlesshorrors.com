@@ -45,7 +45,7 @@ const { post: { data: post, slug }, asCard = false } = Astro.props
         @apply text-left flex flex-row gap-1
     }
     .post-preview__date__day {
-        @apply text-6xl font-semibold text-gray-500 dark:text-gray-300;
+        @apply text-6xl font-semibold text-gray-400;
     }
     .post-preview--card .post-preview__date__day {
         @apply text-4xl
@@ -54,7 +54,7 @@ const { post: { data: post, slug }, asCard = false } = Astro.props
         @apply text-gray-400;
     }
     .post-preview__title {
-        @apply text-2xl font-semibold text-theme-primary dark:text-theme-dark-primary /* this doesn't works here */ hover:underline mb-2;
+        @apply text-2xl font-semibold text-theme-dark-primary /* this doesn't works here */ hover:underline mb-2;
     }
     .post-preview__desc {
         @apply text-lg leading-6 line-clamp-2 dark:text-white hyphens-auto;
