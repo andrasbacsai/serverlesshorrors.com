@@ -15,7 +15,9 @@
     "cz": "cz"
   },
   "overrides": {
-    "rollup": "npm:@rollup/wasm-node"
+    "vite": {
+      "rollup": "npm:@rollup/wasm-node"
+    }
   },
   "devDependencies": {
     "@astrojs/mdx": "^2.0.0",
