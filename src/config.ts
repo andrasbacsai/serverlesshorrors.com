@@ -25,7 +25,7 @@ export const SITE = {
 	title: "ServerlessHorrors",
 	description: "Stories you never want to feel on your own skin",
 	url: "https://serverlesshorrors.com",
-	githubUrl: "https://github.com/andrasbacsai/serverlesshorrors",
+	githubUrl: "https://github.com/andrasbacsai/serverlesshorrors.com",
 	listDrafts: false,
 	image: "https://i.pinimg.com/originals/90/eb/8e/90eb8e1dd918d52797bc1447e70045ce.jpg",
 	// image:
