@@ -6,9 +6,9 @@ Made by [Andras](https://twitter.com/heyandras) who is working on an open-source
 
 <br/>
 
-**Have a story? Share with everyone:**
+**Have a story?**
 
-- https://twitter.com/heyandras 
-- https://github.com/andrasbacsai/serverlesshorrors.com
+- [Write me](https://twitter.com/heyandras)
+- [Open a PR on Github](https://github.com/andrasbacsai/serverlesshorrors.com)
 
                 

@@ -41,7 +41,7 @@ export const SITE = {
 	authorImage: " https://pbs.twimg.com/profile_images/1482658380913201158/NwpZWIaU_200x200.jpg", // Example: https://pbs.twimg.com/profile_images/1272979356529221632/sxvncugt_400x400.jpg, https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png
 	// Author: Bio
 	authorBio:
-		"Solopreneuer. Building Coolify.io in public.",
+		"Solopreneuer. Building Coolify.io in public an open-source & self-hostable Heroku / Netlify / Vercel alternative.",
 };
 
 // Ink - Theme configuration

@@ -4,7 +4,7 @@
 	html {
 			@apply text-white;
             header, footer {
-                @apply text-gray-400 border-gray-700;
+                @apply text-white border-gray-700;
             }
 			strong {
 				@apply text-white
@@ -21,7 +21,9 @@ a {
 .ink-h {
     @apply inline-block text-sm font-bold uppercase drop-shadow-lg py-4 tracking-wider opacity-40 dark:opacity-70
 }
-
+.prose {
+	--tw-prose-bold: #fff;
+}
 ::-webkit-scrollbar {
 	@apply w-3;
 }
