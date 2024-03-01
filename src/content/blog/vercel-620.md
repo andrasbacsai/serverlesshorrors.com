@@ -1,5 +1,5 @@
 ---
-title: $600.123
+title: $620.123
 description: My sitemap.txt used hundreds of GB/hours apparently...
 tags:
   - vercel
@@ -21,4 +21,4 @@ Conclusion: Vercel Support Team confirmed -> won't be charge.
 
 tldr: Sitemap.txt (1.5Kb!) requested more than 378.000 times, caused thousands of GB/hours of bandwidth usage. 
 
-$600 does not sounds a lot, but for a free & open source project, built by a single person, it's a lot.
+$620 does not sounds a lot, but for a free & open source project, built by a single person, it's a lot.
