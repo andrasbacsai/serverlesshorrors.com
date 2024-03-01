@@ -19,6 +19,6 @@ Conclusion: Vercel Support Team confirmed -> won't be charge.
 
 --- 
 
-tldr: Sitemap.txt (1.5Kb!) requested more than 378.000 times, caused thousands of GB/hours of bandwidth usage. 
+__tldr: Sitemap.txt (1.5Kb!) requested more than 378.000 times, caused thousands of GB/hours of bandwidth usage.__
 
 $620 does not sounds a lot, but for a free & open source project, built by a single person, it's a lot.
