@@ -14,7 +14,7 @@ category: development
 
 --- 
 
-Original post: https://twitter.com/shoeboxdnb/status/1643639119824801793
+[Original post](https://twitter.com/shoeboxdnb/status/1643639119824801793)
 
 Conclusion: Vercel CEO confirmed -> won't be charge.
 

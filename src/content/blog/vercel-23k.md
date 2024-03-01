@@ -14,7 +14,7 @@ category: development
 
 --- 
 
-Original post: https://twitter.com/michaelaubry/status/1757539928534315322
+[Original post](https://twitter.com/michaelaubry/status/1757539928534315322)
 
 Conclusion: Vercel CEO confirmed -> won't be charge.
 

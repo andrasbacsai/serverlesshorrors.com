@@ -17,8 +17,9 @@ category: development
 --- 
 
 Original posts: 
-- https://dev-blog.tomilkieway.com/72k-1/
-- https://dev-blog.tomilkieway.com/72k-2/
+
+[1](https://dev-blog.tomilkieway.com/72k-1/), 
+[2](https://dev-blog.tomilkieway.com/72k-2/)
 
 Conclusion: Google let go of their bill as a one-time gesture.
 
