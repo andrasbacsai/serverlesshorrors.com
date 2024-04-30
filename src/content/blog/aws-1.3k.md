@@ -21,4 +21,4 @@ Conclusion: Never let your empty, private S3 bucket alone.
 
 --- 
 
-__tldr: AWS S3 charges for unauthorized incoming requests!__
+__tldr: AWS S3 charges for unauthorized incoming requests, so anyone who knows your bucket name, could ddos you and make your bill go brrrr (huge)!__
