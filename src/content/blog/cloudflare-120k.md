@@ -6,7 +6,7 @@ tags:
   - bandwidth
 author: Andras Bacsai
 authorTwitter: heyandras
-date: "2024-06-26T12:34:56.789Z"
+date: "2024-05-26T12:34:56.789Z"
 image: https://d3e0luujhwn38u.cloudfront.net/resized/Y9uWOtHUPCZzpZH1MRDqriVJD2jttgL1xEiuOTgsqgs/s:1200/plain/s3://typefully-user-uploads/img/original/10070/dd564468-c6ba-4b76-9304-0c76ef4e11e1.png__edited
 category: development
 ---
