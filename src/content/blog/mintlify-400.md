@@ -8,7 +8,7 @@ tags:
 author: Andras Bacsai
 authorTwitter: heyandras
 date: "2024-09-01T12:34:56.789Z"
-image: https://d3e0luujhwn38u.cloudfront.net/resized/w-iCdNKc-731ffCXNrTaWojc5gcDNwCI4ULoIF9rMmw/s:3200/plain/s3://typefully-user-uploads/img/original/10070/1e7c15ec-8f03-48c2-859d-6c9cf9d61552.png__edited
+image: https://d3e0luujhwn38u.cloudfront.net/resized/0j0l0U29ZIyaT6RuML9H-M3vZ7kETNHSCFvQ3cFWXL4/s:3200/plain/s3://typefully-user-uploads/img/original/10070/6cb82ac3-d1e8-48a6-8b8a-f7d15fd0214a.png
 category: development
 ---
 
