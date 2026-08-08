@@ -1,0 +1,1 @@
+- When a content request targets an established series, inspect several existing entries first and match their format. Do not propose a new format before this inspection.
