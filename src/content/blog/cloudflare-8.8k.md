@@ -10,7 +10,7 @@ authorTwitter: heyandras
 date: "2026-08-09T00:00:00.000Z"
 image: /assets/cloudflare-8.8k.png
 category: development
-isNew: true
+isNew: false
 ---
 
 ---
